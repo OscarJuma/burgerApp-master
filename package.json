@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oscarjuma/burgerApp/issues"
+    "url": "https://github.com/oscarjuma/burgerApp-master/issues"
   },
-  "homepage": "https://github.com/oscarjuma/burgerApp#readme",
+  "homepage": "https://github.com/oscarjuma/burgerApp-master#readme",
   "dependencies": {
     "body-parse": "^0.1.0",
     "express": "^4.16.4",

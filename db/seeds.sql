@@ -3,6 +3,6 @@ USE burgers_db;
 INSERT INTO 
     burgers(burger_name)
 VALUES 
-    ('Mayo'), 
-    ('Spinach'), 
-    ('DrPepper');
+    ('Fat_Burger'), 
+    ('Slim_Burger'), 
+    ('Diet_Coke');

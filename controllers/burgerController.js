@@ -22,7 +22,7 @@ router.post("/api/burger", (req, res) => {
   ], [
     req.body.name
   ], result => {
-    // Send back the ID of the new quote
+    
     res.json({ id: result.insertId });
   });
 });
@@ -36,7 +36,7 @@ router.put("/api/burger/:id", (req, res) => {
     devoured: req.body.devoured
   }, condition, result => {
     if (result.changedRows == 0) {
-      // If no rows were changed, then the ID must not exist, so 404
+      // 404 error if no rows change (ID doesnt exist)
       return res.status(404).end();
     } else {
       res.status(200).end();
@@ -49,7 +49,7 @@ router.delete("/api/burger/:id", (req, res) => {
 
   burger.delete(condition, result => {
     if (result.affectedRows == 0) {
-      // If no rows were changed, then the ID must not exist, so 404
+      // 404 error if no rows change (ID doesnt exist)
       return res.status(404).end();
     } else {
       res.status(200).end();

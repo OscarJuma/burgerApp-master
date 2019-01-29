@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henriquez93550/burgerApp.git"
+    "url": "git+https://github.com/oscarjuma/burgerApp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/henriquez93550/burgerApp/issues"
+    "url": "https://github.com/oscarjuma/burgerApp/issues"
   },
-  "homepage": "https://github.com/henriquez93550/burgerApp#readme",
+  "homepage": "https://github.com/oscarjuma/burgerApp#readme",
   "dependencies": {
     "body-parse": "^0.1.0",
     "express": "^4.16.4",

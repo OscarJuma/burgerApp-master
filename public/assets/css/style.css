@@ -2,7 +2,7 @@ button {
 	background-color: red;
     width: 250px;
     font-size: 20px;
-    color: white;
+    color: black;
     border: 1px solid #1d3c6a;
     border-radius: 50px;
     box-shadow: 5px 5px 5px black;
@@ -16,12 +16,12 @@ button:hover {
 }
 h1 {
     text-align: center;
-    color: whitesmoke;
+    color: black;
     font-size: 70px
 }
 .burger {
-    background-image: url("https://images.unsplash.com/photo-1428660386617-8d277e7deaf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
-    height: 500px;
+    /* background-image: url("https://images.unsplash.com/photo-1428660386617-8d277e7deaf2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"); */
+    height: 200px;
     /* Parallax Effect */
     background-attachment: fixed;
     background-position: center;
@@ -32,7 +32,7 @@ body {
 }
 footer, h2, li {
     text-align: center;
-    color: whitesmoke;
+    color: black;
 }
 .buttonHolder{ 
     text-align: center; 
